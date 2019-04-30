@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess My Car</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="Javascript.js">
+    <style>
+        body {
+            background: grey;
+        }
+
+        #questionMark {
+            font-size: 150px;
+            color: blue;
+        }
+
+        #guessesSoFar {
+            font-size: 75px;
+        }
+
+        .wins {
+            background: darkblue;
+            color: red;
+        }
+
+        .guessesRemaining {
+            background: white;
+        }
+
+        .losses {
+            background: darkblue;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand ms-0">Guess Cars I've Owned</span>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md 12">
+                <span id="questionMark">? ? ? ? ? ? ?</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 wins text-center">
+                <h2>Wins!</h2>
+            </div>
+        </div>
+        <div class="col-md-4 guessesRemaining text-center">
+            <h2>Guesses Reamining</h2>
+        </div>
+        <div class="col-md-4 losses text-center">
+            <h2>losses</h2>
+        </div>
+    </div>
+
+
+    <script src="assets/javascript/game.1.js"></script>
+</body>
+
+</html>
